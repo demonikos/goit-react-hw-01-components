@@ -1,11 +1,11 @@
 import user from '../DataJSON/user'
 import data from '../DataJSON/data'
-import friends from '../DataJSON/friends'
-import transactions from '../DataJSON/transactions'
+// import friends from '../DataJSON/friends'
+// import transactions from '../DataJSON/transactions'
 
 import Profile from "./Profile/Profile";
 import Statistics from "./Statistics/Statisics";
-import FriendList from "./FriendList/FriendList"
+// import FriendList from "./FriendList/FriendList"
 
 
 
