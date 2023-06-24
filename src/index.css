@@ -36,7 +36,7 @@ img {
   height: auto;
 }
 
-.myContainer{
+.myContainer {
   display: flex;
   flex-direction: column;
   row-gap: 60px;
@@ -46,11 +46,11 @@ img {
   text-align: center;
 }
 
-.mySections{
+.mySections {
   /* padding: 20px 10px 0 10px; */
 }
 
-.myProfile{
+.myProfile {
   border: 1px solid lightslategray;
   border-radius: 15px;
   padding-bottom: 0;

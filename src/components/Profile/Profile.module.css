@@ -53,16 +53,16 @@ p {
   padding: 10px;
 }
 
-.statsList:not(:first-child){
-border-left: 1px solid lightslategray;
+.statsList:not(:first-child) {
+  border-left: 1px solid lightslategray;
 }
 
-.statsList:first-child{
-    border-bottom-left-radius: 15px;
+.statsList:first-child {
+  border-bottom-left-radius: 15px;
 }
 
-.statsList:last-child{
-    border-bottom-right-radius: 15px;
+.statsList:last-child {
+  border-bottom-right-radius: 15px;
 }
 
 .label {

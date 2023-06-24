@@ -10,8 +10,8 @@ export default function FriendListItem({ id, avatar, name, isOnline }) {
           style={{ backgroundColor: '#25fa7e' }}
         ></span>
       ) : (
-        <span 
-          className={css.status} 
+        <span
+          className={css.status}
           style={{ backgroundColor: '#fa5732' }}
         ></span>
       )}
@@ -27,4 +27,4 @@ FriendListItem.propTypes = {
   name: PropTypes.string,
   isOnline: PropTypes.bool,
   id: PropTypes.number,
-}
+};

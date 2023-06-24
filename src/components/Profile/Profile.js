@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Profile.module.css'
+import css from './Profile.module.css';
 
 export default function Profile({
   username,
@@ -43,6 +43,6 @@ Profile.propTypes = {
   stats: PropTypes.shape({
     followers: PropTypes.number,
     views: PropTypes.number,
-    likes:PropTypes.number
-  })
-}
+    likes: PropTypes.number,
+  }),
+};

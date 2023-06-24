@@ -1,7 +1,7 @@
-.friendList{
-    width: 250px;
-    border: 1px solid lightslategray;
-    border-radius: 15px;
-    align-items: center;
-    background-color: aliceblue;
+.friendList {
+  width: 250px;
+  border: 1px solid lightslategray;
+  border-radius: 15px;
+  align-items: center;
+  background-color: aliceblue;
 }
