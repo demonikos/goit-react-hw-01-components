@@ -13,3 +13,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.myContainer{
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.mySections{
+  /* padding: 20px 10px 0 10px; */
+}
+
+.myProfile{
+  border: 1px solid lightslategray;
+  border-radius: 15px;
+  padding-bottom: 0;
+}
