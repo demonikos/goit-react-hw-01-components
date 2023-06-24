@@ -1,5 +1,6 @@
-import css from './Statistics.module.css'
 import randomColor from 'randomcolor';
+import PropTypes from 'prop-types';
+import css from './Statistics.module.css'
 
 export default function Statistics({ title, stats }) {
   return (
@@ -15,4 +16,13 @@ export default function Statistics({ title, stats }) {
       </ul>
     </section>
   );
+}
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    label: PropTypes.string,
+    percentage: PropTypes.number,
+  }))
 }
